@@ -450,7 +450,7 @@ def main() -> None:
                         }
                         for s in ans.sources
                     ]
-                    with st.expander("Sources", expanded=False):
+                 with st.expander("Sources", expanded=False):
                         for s in ans.sources:
                             if st.session_state.show_debug_scores:
                                 st.markdown(
